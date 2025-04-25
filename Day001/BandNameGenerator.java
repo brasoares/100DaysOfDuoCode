@@ -4,11 +4,20 @@ public class BandNameGenerator { // Class declaration
     Scanner scanner = new Scanner(System.in);
 
     // Variable declarations
-    String bornWhere;
+    String bornCity;
     String petName;
-
-    System.out.println("In which city were you born?");
-    bornWhere = scanner.nextLine();
     
+    // DAY ONE on 2025.04.24
+    // This program will gather some user data and generate a band name for the person
+
+    System.out.println("Welcome to the Band Name Generator program!");
+    
+    System.out.println("In which city were you born?");
+    bornCity = scanner.nextLine();
+
+    System.out.println("What's your pet's name?");
+    petName = scanner.nextLine();
+
+    System.out.println("Your band name could be " + bornCity);
   }
 }
