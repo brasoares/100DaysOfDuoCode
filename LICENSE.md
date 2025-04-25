@@ -22,3 +22,8 @@ This work is made available under the SOL License. By using this work, you agree
 ---
 
 **Disclaimer**: This license is offered to encourage kindness and ethical use. It is a guiding principle rooted in goodwill, and users are strongly urged to honor these values.
+
+---
+
+**Created by Henoc, 2025**  
+This license is designed to inspire ethical and kind usage for the benefit of all.
