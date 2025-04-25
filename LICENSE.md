@@ -1,4 +1,4 @@
-# SOL License
+# SOL License (Shared Open License)
 
 **Version 1.0, 2025**
 
