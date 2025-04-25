@@ -18,6 +18,6 @@ public class BandNameGenerator { // Class declaration
     System.out.println("What's your pet's name?");
     petName = scanner.nextLine();
 
-    System.out.println("Your band name could be " + bornCity);
+    System.out.println("Your band name could be " + bornCity + petName + ".");
   }
 }
