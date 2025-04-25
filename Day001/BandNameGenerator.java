@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BandNameGenerator { // Class declaration
   public static void main(String[] args) { // Main method
     // Creates a Scanner object to read input
@@ -5,7 +7,7 @@ public class BandNameGenerator { // Class declaration
 
     // Variable declarations
     String bornCity;
-    String petName;
+    String petsName;
     
     // DAY ONE on 2025.04.24
     // This program will gather some user data and generate a band name for the person
@@ -16,8 +18,10 @@ public class BandNameGenerator { // Class declaration
     bornCity = scanner.nextLine();
 
     System.out.println("What's your pet's name?");
-    petName = scanner.nextLine();
+    petsName = scanner.nextLine();
 
-    System.out.println("Your band name could be " + bornCity + petName + ".");
+    System.out.println("Your band name could be " + bornCity + " " + petsName + ".");
+
+    scanner.close();
   }
 }
