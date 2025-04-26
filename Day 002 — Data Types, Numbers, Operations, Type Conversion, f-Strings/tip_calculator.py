@@ -9,3 +9,4 @@ final_amount = total_bill * (1 + tip_percentage / 100)
 pay_amount_per_person = total_bill / persons
 
 print(f"Each person should pay: ${pay_amount_per_person.2f}.")
+# Created on 2025.04.25
